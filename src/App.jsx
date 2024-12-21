@@ -46,7 +46,7 @@ export default function App() {
   return (
     <div>
       <button
-        className="rounded-sm border-2 border-black"
+        className="mb-2  bg-gray-100 rounded-sm border-2 border-black"
         onClick={handleClick}
         disabled={isLoading}
       >
@@ -59,6 +59,7 @@ export default function App() {
         <p>
           Your GPS position:{" "}
           <a
+            className="text-blue-100"
             target="_blank"
             rel="noreferrer"
             href={`https://www.openstreetmap.org/#map=16/${lat}/${lng}`}
