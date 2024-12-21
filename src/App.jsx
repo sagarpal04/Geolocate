@@ -45,7 +45,11 @@ export default function App() {
 
   return (
     <div>
-      <button onClick={handleClick} disabled={isLoading}>
+      <button
+        className="rounded-sm border-2 border-black"
+        onClick={handleClick}
+        disabled={isLoading}
+      >
         Get my position
       </button>
 
