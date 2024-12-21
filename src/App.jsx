@@ -59,7 +59,7 @@ export default function App() {
         <p>
           Your GPS position:{" "}
           <a
-            className="text-blue-100"
+            className="text-blue-500"
             target="_blank"
             rel="noreferrer"
             href={`https://www.openstreetmap.org/#map=16/${lat}/${lng}`}
